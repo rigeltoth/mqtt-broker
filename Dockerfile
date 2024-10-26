@@ -6,8 +6,3 @@ COPY mosquitto.conf /mosquitto/config/mosquitto.conf
 
 # Exponer los puertos necesarios
 EXPOSE 1883
-EXPOSE 8883
-EXPOSE 9001
-
-# Crear volúmenes para datos y logs
-VOLUME ["/mosquitto/data", "/mosquitto/log"]
