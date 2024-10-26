@@ -1,3 +1,3 @@
 # MQTT broker
 
-## just a simple mosquitto broker on port 1883
+just a simple mosquitto broker on port 1883
